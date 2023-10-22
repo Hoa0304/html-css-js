@@ -86,3 +86,19 @@
      - laptop__touchpad--smooth.
 
 [Thực hành nèo ](html/bem.html) 
+
+## Emmet 
+- Để di chuyển giữa các dòng : ```alt``` + mũi tên lên xún .
+- Tạo 1 cái giống cái trên : shift +alt + mũi tên xún.
+- Đổi tên tất cả cùng 1 tên : ấn vào cúi tên rồi nhấn ```ctrl``` + D.
+- Tạo ra 10 cái có cùng nội dung : ```ul>li*10{Hoane}``` .
+- Tạo ra chạy số theo thứ tự : ```ul>li*10{$}``` .
+- Tạo ra 10 cái có cùng tên : ```ul>li.Hoane*10``` .
+- Dấu ```+``` : tạo ra những thẻ có cùng cấp với nhau .
+- Dấu ```^``` : tạo ra thẻ mà như ```cd ..``` (thoát 1 folder) .
+
+## CSS Reset
+- Lên trình duyệt khác nhau sẽ hiển thị khác nhau.
+## Thuộc tính CSS 
+
+[Thực hành nèo ](html/css.html) 

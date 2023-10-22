@@ -1,0 +1,21 @@
+.structure__title {
+    margin-left: 10%;
+}
+
+
+.selectors {
+    .selectors__ele {
+        margin-left: 100px;
+        color: hotpink;
+    }
+
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.structure__title--primary,
+.selectors__ele {
+    margin-left: 50px;
+    color: hotpink;
+}
+
