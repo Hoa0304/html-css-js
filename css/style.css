@@ -2,7 +2,6 @@
     margin-left: 10%;
 }
 
-
 .selectors {
     .selectors__ele {
         margin-left: 100px;
@@ -19,3 +18,28 @@
     color: hotpink;
 }
 
+p {
+    color: antiquewhite;
+    color: #ffa5d8;
+    color: rgb(red, green, blue);
+    color: rgba(red, green, blue, 0,5);
+}
+
+.background {
+    background-color: navy;
+    width: 40px;
+    height: 30px;
+}
+
+.em {
+    width: 10em;
+    height: 20em;
+    background-color: #ffa5d8;
+    font-size: 32px;
+}
+
+.rem {
+    width: 10rem;
+    height: 20rem;
+    background-color: blueviolet;
+}

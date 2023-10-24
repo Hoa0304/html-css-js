@@ -100,5 +100,36 @@
 ## CSS Reset
 - Lên trình duyệt khác nhau sẽ hiển thị khác nhau.
 ## Thuộc tính CSS 
-
 [Thực hành nèo ](html/css.html) 
+
+### Thuộc tính color
+```rgba(0,0,0,0.1)``` : giảm độ mờ (0->1).
+### Các thuộc tính về kích thước
+- Nếu bị tràn muốn ẩn đi thì use : ```overflow: hidden```.
+- Nếu bị tràn muốn sroll ( kéo xuống ) : ```overflow-y : auto```.
+- Nếu nội dung quá dài thì tự cao lên , thay vì dùng ```height``` thì dùng ```min-height```.
+### Các thuộc tính về background
+- Để chèn 1 hình làm backgroudn dùng : 
+```html
+background-image: url(...);
+width :100%;
+height:100px;
+```
+     - Lúc này background sẽ bị tràn màn hình.
+     - Nếu muốn background nằm ở trung tâm thì dùng :
+```background-position: center center```.
+     - Nếu muốn phủ hết thì dùng ```background-size: cover``` .
+     - Nếu muốn không bị lặp lại thì dùng ```background-repeat: no-repeat```.
+     - Nếu muốn scroll vẫn đứng yên thì dùng ```background-attachment: fixed```(cố định ở 1 vị trí).
+- Cách để viết gọn hơn :
+```html
+background: red url() no-repeat center center / cover;
+```
+> Khi làm background cần phải xét height và width.
+
+### Các đơn vị hay dùng
+- % : chạy theo phần tử cha chứa nó.
+- vw : không care ai ( áp dụng background để không bị scroll).
+- px : cố định .
+- em : phụ thuộc vào thuộc tính font-size của chính nó hoặc phần tử chứa nó.
+- rem : phụ thuộc vào thuộc tính font-size của thẻ html.
