@@ -133,3 +133,32 @@ background: red url() no-repeat center center / cover;
 - px : cố định .
 - em : phụ thuộc vào thuộc tính font-size của chính nó hoặc phần tử chứa nó.
 - rem : phụ thuộc vào thuộc tính font-size của thẻ html.
+
+### Thuộc tính border : viền bao bọc 
+- Có 2 cách viết :
+     - Cách 1 : 
+          ```css
+          border: 2px solid black;
+          ``` 
+     - Cách 2 : 
+     ```css
+         border-width: 2px;
+         border-style: solid;
+         border-color: black;
+     ```
+> Ngoài ra còn có border-top, border-right, and border-bottom, border-left.
+
+- Có 3 loại border-style :
+     - Solid : đường viền liền .
+     - dotted : đường viền ```....```.
+     - dashed : đường viền ```----```.
+
+__Outline cũng giống border, nhưng border có thể radius còn outlined thì không__
+
+### Thuộc tính margin : tạo khoảng trống bên ngoài
+    - trên dưới / trái phải.
+    - trên / trái phải / dưới.
+    - trên / phải / dưới / trái.
+### Thuộc tính padding: tạo khoảng trống bên trong
+
+>> Note : Margin có thể dùng số âm còn padding thì không thể.
