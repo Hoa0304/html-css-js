@@ -1,0 +1,11 @@
+.p {
+}
+
+body {
+    font-family: 'Agbalumo',sans-serif;
+    /*sans-serif : không gạch chân 
+    serif : gạch chân */
+    font-size: 30px;
+    font-weight: 20;
+    line-height: 4;
+}

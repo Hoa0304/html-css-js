@@ -162,3 +162,30 @@ __Outline cũng giống border, nhưng border có thể radius còn outlined th�
 ### Thuộc tính padding: tạo khoảng trống bên trong
 
 >> Note : Margin có thể dùng số âm còn padding thì không thể.
+
+### Box-sizing : khuyên nên dùng cho cả trang web
+- Gía trị mặc định :
+```css
+box-sizing: content-box;
+```
+- Có nghĩa là :
+     - width = width + padding-left + padding-right + border-left + border-right.
+     - height = height + padding-top + padding-bottom + border-top + border-bottom.
+
+- Nếu dùng ```box-sizing: border-box;``` thì cái border và padding cũng sẽ nằm trong width và height.
+
+- Có nghĩa là :
+     - width = width - padding-left - padding-right - border-left - border-right.
+     - height = height - padding-top - padding-bottom - border-top - border-bottom.
+
+### Thuộc tính display : none - dùng khi res
+
+- Eg: ```<a href="#">CHTran</a>```.
+
+- Không dùng underline ```text-decoration: none;```.
+
+### Thuộc tính về font 
+ - Độ đậm nhạt của chữ ```font-weight``` - mặc định là 400.
+ - Để chữ to hơn ```font-size```.
+ - Nếu muốn chữ in nghiêng ```font-style: italic```.
+ - Khoảng trống cách ra giữa 2 dòng```lineheight``` mặc định là 1.

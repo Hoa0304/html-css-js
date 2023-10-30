@@ -1,3 +1,5 @@
+
+
 .rem {
     font-size: 32px;
     width: 10rem;
@@ -27,4 +29,23 @@
     margin: 10px 20px 50px 40px;
     padding-top: 15%;
     overflow: scroll;
+}
+
+.boxed {
+    width: 105px;
+    height: 105px;
+    border: 5px solid blueviolet;
+    padding: 1rem;
+    background-color: aqua;
+    /* box-sizing: border-box; */
+    margin-bottom: 50px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    background-color: blue;
 }
