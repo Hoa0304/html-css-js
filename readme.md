@@ -189,3 +189,21 @@ box-sizing: content-box;
  - Để chữ to hơn ```font-size```.
  - Nếu muốn chữ in nghiêng ```font-style: italic```.
  - Khoảng trống cách ra giữa 2 dòng```lineheight``` mặc định là 1.
+ - Gía trị mặc định là chữ sẽ nằm bên trái, nếu muốn sang phải thì dùng ```text-align: right```. Muốn ở giữa thì thay ```right``` thành ```center```. Còn canh đều 2 bên dùng ```justify```.
+ - Khoảng cách giữa các ký tự ```letter-spacing```.
+ - Khoảng cách giữa các từ ```word-spacing```.
+ - Muốn all chữ hiển thị trên 1 dòng ```white-space: nowrap```.
+     - Nếu chữ quá dài thì sẽ hiển thị dấu 3 chấm :
+          - Đầu tiên : ```overflow: hidden```- nếu tràn ra ngoài thì sẽ ẩn đi.
+          - Tiếp theo : ```text-overflow: ellipsis```- hiển thị dấu 3 chấm.
+- Hiển thị dấu 3 chấm trên hàng thứ 3 :
+     ```css
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-box-line: 3;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     ```
+     - ```-webkit-box-line: 3;``` ở số 3 thì mình muốn ở dòng thứ mấy hiển thị thì nhập vào vị trí số hàng đó.
+- Truyền vào là 1 chữ , spam thì để tự động xuống dòng tùm lum ```word-break: break-all;``` và ```break-word``` cho tự đống xuống hàng theo chữ.
+### Các thuộc tính cho hình ảnh

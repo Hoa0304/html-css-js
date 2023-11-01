@@ -1,4 +1,18 @@
 .p {
+    max-width: 300px;
+    font-size: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-line: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text {
+    font-weight: 200;
+    line-height: 2;
+    text-align: left;
+    word-break: break-all;
 }
 
 body {
