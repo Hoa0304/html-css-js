@@ -211,3 +211,19 @@ box-sizing: content-box;
 - Khi rê chuột vào ```:hover```.
 - Khi nhấn vào ```:active```.
 - Khi đã nhấn rồi ```:visited```.
+
+### Gradient : đổ từ màu này sang màu kia
+- Set gradient cho background ```background-image: linear-gradient(direction,color1,color2)```.
+
+### Sự khác nhau giữa opacity visibility và display none.
+- Đầu tiên sử dụng ```curson: pointer```.
+- Độ mờ ```opacity:0``` chạy từ 0->1.Nếu ```0``` ẩn đi nhưng vẫn chiếm diện tích, ấn vào được(transition,nhấn vào hiện ra,hiệu ứng).
+- ```visibility:hidden``` chiếm diện tích nhưng k ấn vào được(transition,nhấn vào hiện ra,hiệu ứng).
+- ```display:none``` ẩn đi và không chiếm diện tích.
+
+### Shadow : tạo độ bóng 
+- 
+
+### Độ ưu tiên
+
+### Child selector 
