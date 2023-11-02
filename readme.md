@@ -207,3 +207,7 @@ box-sizing: content-box;
      - ```-webkit-box-line: 3;``` ở số 3 thì mình muốn ở dòng thứ mấy hiển thị thì nhập vào vị trí số hàng đó.
 - Truyền vào là 1 chữ , spam thì để tự động xuống dòng tùm lum ```word-break: break-all;``` và ```break-word``` cho tự đống xuống hàng theo chữ.
 ### Các thuộc tính cho hình ảnh
+### Các pseudo cơ bản
+- Khi rê chuột vào ```:hover```.
+- Khi nhấn vào ```:active```.
+- Khi đã nhấn rồi ```:visited```.
