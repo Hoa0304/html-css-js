@@ -256,17 +256,20 @@ thì màu #000 sẽ được áp dụng cho thẻ ```span```.
 
 ### Selector nâng cao trong CSS
 - Bắt đầu : 
-```a[attribute^="..."] {
+```
+a[attribute^="..."] {
        //body;
 }
 ```
 - Kết thúc : 
-```a[attribute$="..."] {
+```
+a[attribute$="..."] {
        //body;
 }
 ```
 - Chỉ cần có ... : 
-```a[attribute*="..."] {
+```
+a[attribute*="..."] {
        //body;
 }
 ```
@@ -278,3 +281,10 @@ thì màu #000 sẽ được áp dụng cho thẻ ```span```.
 
 ### Transition
 - Hiệu ứng chuyển đổi mượt mà giữa các trạng thái của một phần tử khi có sự thay đổi trong thuộc tính CSS.
+
+```css
+transition: all 2s linear;
+```
+[Thực thi tại đây ](css/child.css) .
+
+### transform
