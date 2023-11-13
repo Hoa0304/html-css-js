@@ -227,3 +227,54 @@ box-sizing: content-box;
 ### Độ ưu tiên
 
 ### Child selector 
+
+### Type selector 
+- Lấy theo kiểu chứ không phải vị trí như children.
+```html
+<ul>
+     <p>loret</p>
+     <li>1</li>
+</ul>
+```
+- Child sẽ k hỉu first là ```li``` và nó k thực thi. Còn type thì hiểu.
+### Combinators
+- ```+``` : trỏ đến thẻ liền tiếp phía sau, cùng cấp.
+- Ví dụ : 
+```html
+<p>hello</p>
+<span>hi</span>
+```
+trong css sẽ là 
+```css
+p + span {
+     color: #000;
+}
+```
+thì màu #000 sẽ được áp dụng cho thẻ ```span```.
+
+- ```~``` : chỉ cần là thẻ cùng cấp ở sau.
+
+### Selector nâng cao trong CSS
+- Bắt đầu : 
+```a[attribute^="..."] {
+       //body;
+}
+```
+- Kết thúc : 
+```a[attribute$="..."] {
+       //body;
+}
+```
+- Chỉ cần có ... : 
+```a[attribute*="..."] {
+       //body;
+}
+```
+
+- Chính xác :  ```=```.
+
+[Thực thi thẻ html tại đây ](html/selectorHigh.html) .
+[Thực thi thẻ css tại đây ](css/sel.css) .
+
+### Transition
+- Hiệu ứng chuyển đổi mượt mà giữa các trạng thái của một phần tử khi có sự thay đổi trong thuộc tính CSS.

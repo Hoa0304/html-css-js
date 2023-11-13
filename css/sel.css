@@ -1,0 +1,11 @@
+a[href^="gg"] {
+    color: aquamarine;
+}
+
+a[href$="com"] {
+    color: saddlebrown;
+}
+
+a[href*="hoa"] {
+    color: rgb(159, 127, 255);
+}
