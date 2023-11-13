@@ -19,3 +19,30 @@ li:nth-last-child(2) {
 li:nth-child(3) {
     color: aquamarine;
 }
+
+/* Thiết lập transition cho thuộc tính width */
+.element {
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+  
+  /* Thiết lập transition cho nhiều thuộc tính */
+  .element {
+    transition-property: width, height;
+    transition-duration: 1s, 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  /* Thiết lập transition cho tất cả các thuộc tính */
+  .element {
+    width: 160px;
+    height: 250px;
+    background-color: chocolate;
+    transition: all 1s ease-in-out;
+  }
+
+.element:hover {
+    background-color: blueviolet;
+    border-radius: 20%;
+}
