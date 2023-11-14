@@ -287,4 +287,31 @@ transition: all 2s linear;
 ```
 [Thực thi tại đây ](css/child.css) .
 
-### transform
+### Transform
+- Thay đổi vật thể ban đầu nhưng vẫn chiếm diện tích như vậy.
+- Không ảnh hưởng đến vật khác , bản chất nó chỉ đè lên vật khác.
+- Mở rộng chiều dài và chiều cao : 
+```css
+transform: scale scaleX() scaleY();
+```
+- Muốn quay bao nhiêu độ thì dùng :
+```css
+transform: rotate(34deg)
+```
+
+- Có rotateX và rotateY và còn có rotateZ ( xoay theo mặt phẳng).
+- Di chuyển trái phải thì dùng ```translateX```, còn trên dưới thì dùng ```translateY```.
+- Trong ```translate``` có thể điền %, biểu thì cho bao nhiêu % so với kích thước của vật được translate.
+> Tổng hợp : transform: scale(x,y) rotate(ndeg) translate(X,Y).
+- Nghiêng thì dùng ```skew```.
+
+### Position 
+#### Fixed Position
+- Cố định luôn và chỉ phụ thuộc vào thẻ body .
+- Không nên đi kèm với transform.
+### Before và after: điền vào trước và sau.
+- Thêm 1 dấu tròn nhỏ ở trước hoặc sau.
+[Thực thi tại đây ](css/dot.css) .
+- Line nằm giữa text (---text---).
+- Text sẽ được bỏ trong 1 thẻ như là thẻ ```span``` ở bên trong 1 thẻ sử dụng line như ```h3```.
+[Thực thi tại đây ](css/dot.css) .

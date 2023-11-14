@@ -1,0 +1,12 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.boxed {
+    width: 20rem;
+    height: 30rem;
+    background-color: brown;
+    transform: scale(3,2);
+}
