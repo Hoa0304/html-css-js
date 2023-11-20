@@ -39,3 +39,35 @@
     position: relative;
     z-index: 2;
 }
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4px;
+    color: blueviolet;
+    position: relative;
+    margin: 5rem auto;
+}
+
+.icon::after {
+    content: "";
+    border-radius: inherit;
+    background-color: currentColor;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.icon-user {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hieuUngKhiHover {
+    text-decoration: none;
+}

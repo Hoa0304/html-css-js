@@ -315,3 +315,9 @@ transform: rotate(34deg)
 - Line nằm giữa text (---text---).
 - Text sẽ được bỏ trong 1 thẻ như là thẻ ```span``` ở bên trong 1 thẻ sử dụng line như ```h3```.
 [Thực thi tại đây ](css/dot.css) .
+- Làm icon và 1 bg mờ ở dưới .
+     - Để background ở dưới icon cùng màu với icon hay là text mà cần giảm độ mờ thì dùng ```background-color: currentColor;``` sẽ theo màu đó và kết hợp với ```opacity:n``` n là từ 0->1 ( độ mờ của background ).
+
+#### Hiệu ứng khi hover
+
+       
