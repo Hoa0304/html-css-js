@@ -1,4 +1,9 @@
 # HTML CSS 
+## Thẻ meta.
+- Thẻ ```<meta>``` dùng để cung cấp thêm "thông tin về trang web" cho trình duyệt và các công cụ tìm kiếm (những thông tin này không hiển thị lên màn hình, tuy nhiên trình duyệt và các công cụ tìm kiếm có thể đọc và hiểu được).
+- Thuộc tính charset dùng để xác định kiểu mã hóa ký tự của trang web.
+- Tiếng Việt của chúng ta sử dụng kiểu mã hóa ký tự là UTF-8 ```<meta charset="UTF-8">```.
+- 
 ## Thẻ cơ bản.
 - ```div``` : thẻ bao bọc 1 khối gì đó.
 - ```p``` : chứa những đoạn văn dài(thẻ block) .
