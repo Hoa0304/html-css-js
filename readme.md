@@ -45,7 +45,7 @@
 - Thẻ ```main``` : chứa nội dung chính.
 - Thẻ ```section``` :  có thể chứa tiêu đề, đoạn văn bản, hình ảnh, hoặc các phần tử khác. Việc sử dụng ```<section>``` giúp cho việc đánh dấu các phần quan trọng trên trang web và giúp các công cụ tìm kiếm và trình đọc màn hình hiểu được cấu trúc nội dung của trang một cách tốt hơn.
      - Trong thẻ ```section``` chứa thẻ ```article``` : 1 bài viết.
-- Tag _<article>_ định nghĩa một bài viết, một nội dung riêng biệt. Thường được sử dụng trong:
+- Tag ```<article>``` định nghĩa một bài viết, một nội dung riêng biệt. Thường được sử dụng trong:
 
      - Tin tức.
      - Comment.
